@@ -89,7 +89,7 @@ DATABASES = {
         'USER': env('POSTGRES_USER'),
         'PASSWORD': env('POSTGRES_PASSWORD'),
         'HOST': env('POSTGRES_HOST'),
-        'POST': env('POSTGRES_POST') or '5432',
+        #'POST': env('POSTGRES_POST') or '5432',
     }
 }
 
